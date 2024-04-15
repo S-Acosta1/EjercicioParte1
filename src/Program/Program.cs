@@ -37,7 +37,6 @@ namespace Full_GRASP_And_SOLID
             AddEquipmentToCatalog("Cafetera", 1000);
             AddEquipmentToCatalog("Hervidor", 2000);
         }
-
         private static void AddProductToCatalog(string description, double unitCost)
         {
             productCatalog.Add(new Product(description, unitCost));
